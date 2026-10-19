@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+
+# Generated machine-learning models
+*.pkl
+*.pickle
+*.joblib
+*.h5
+*.keras
+*.onnx
+
+# Temporary files
+*.bak
+*.backup*
+*.tmp
+
+# Test and tool caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/

@@ -1,0 +1,23 @@
+STAYTYPE AI — BALANCED OBJECTIVE VALIDATION DECISION
+=======================================================
+Selection metric: Macro-F1 across all room types
+Tie-breaker: Shared room recall
+
+Selected Shared room weight: 1.5000
+Validation Macro-F1:         0.7567
+Validation accuracy:         0.8565
+Shared room precision:       0.7444
+Shared room recall:          0.4323
+Shared room F1:              0.5469
+
+Top validation candidates:
+ Shared_weight  Shared_recall  Shared_precision  Shared_F1  Macro_F1  Accuracy
+          1.50       0.432258          0.744444   0.546939  0.756665  0.856532
+          2.00       0.470968          0.657658   0.548872  0.756632  0.855159
+          1.75       0.451613          0.693069   0.546875  0.756274  0.855769
+          2.50       0.509677          0.585185   0.544828  0.754408  0.853327
+          3.00       0.516129          0.540541   0.528053  0.748098  0.851648
+
+Status: validation selection only.
+The held-out test set was not read by this script.
+The saved model was not modified.

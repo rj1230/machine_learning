@@ -1,0 +1,6 @@
+Stage,Macro F1,Accuracy
+Baseline RF (CV),0.7326071625796806,0.8557952381287851
+Best random_forest (CV),0.7451790645618579,
+"Calibrated, argmax (OOF)",0.738318412501381,
+"Calibrated, tuned weights (OOF)",0.7421059401380172,
+Final model (TEST),0.7453004933977089,0.8554164600892414
